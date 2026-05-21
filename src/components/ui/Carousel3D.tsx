@@ -71,7 +71,7 @@ export function Carousel3D({ items }: { items: Campaign[] }) {
                     {item.image && (
                       <div className="absolute inset-0 z-[-1] opacity-70 transition-opacity duration-300 group-hover:opacity-100">
                         <img src={item.image} alt={item.title} referrerPolicy="no-referrer" className="h-full w-full object-cover" />
-                        <div className="absolute inset-0 bg-gradient-to-t from-card via-card/90 to-card/20" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-card via-card/90 to-card/20 transition-opacity duration-300 group-hover:opacity-0" />
                       </div>
                     )}
                     <div>
